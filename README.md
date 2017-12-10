@@ -1,6 +1,10 @@
 # KCPApp
 Cache | Show any ad of an app only by using its App Id
 
+# Idea
+Needed a framework for cross promoting my apps, and found [JanC's Tapromotee](ttps://github.com/JanC/TAPromotee), but it didn't fit my needs, so I rewrote it, rebuilt the UI, added more functionalities to it, and covered more "edge cases".
+
+# Preview
 ![Alt Text](https://media.giphy.com/media/3o6fJ0xFdOvw1PcvKM/giphy.gif)
 ![Alt Text](https://media.giphy.com/media/3o6fIXdAPdTgwRhfmE/giphy.gif)
 
@@ -15,7 +19,7 @@ Cache | Show any ad of an app only by using its App Id
 - Verifies if the requested app is available on the current device (minimum ios version, device type, country)
 
 # Requirements
-- Minimum required os version 8.0
+- Minimum required iOS version 8.0
 - Add the following code to your info.plist file
 ```
 <key>NSAppTransportSecurity</key>
@@ -37,3 +41,11 @@ Cache | Show any ad of an app only by using its App Id
 	</dict>
 </dict>
 ```
+
+# Acknowledgements
+I've used the following libraries for building KCPApp
+- [Reachability](https://developer.apple.com/library/content/samplecode/Reachability/Introduction/Intro.html)
+- [EGOCache](https://github.com/enormego/EGOCache)
+- [Facade](https://github.com/mamaral/Facade)
+- [Chameleon](https://github.com/ViccAlexander/Chameleon)(A small part of it)
+- [StarRatingView](https://github.com/liaojinxing/StarRatingView)(my modified version)
