@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C072648B1FDDB11D000A6D8F /* KCPApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07264811FDDB11D000A6D8F /* KCPApp.framework */; };
+		C07264901FDDB11D000A6D8F /* KCPAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C072648F1FDDB11D000A6D8F /* KCPAppTests.m */; };
+		C07264D21FDDB56B000A6D8F /* KCPApp+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C07264C31FDDB56B000A6D8F /* KCPApp+Private.h */; };
+		C07264D31FDDB56B000A6D8F /* KCPDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = C07264C41FDDB56B000A6D8F /* KCPDownloader.h */; };
+		C07264D41FDDB56B000A6D8F /* TACloseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C07264C51FDDB56B000A6D8F /* TACloseButton.h */; };
+		C07264D51FDDB56B000A6D8F /* KCPViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C07264C61FDDB56B000A6D8F /* KCPViewController.h */; };
+		C07264D71FDDB56B000A6D8F /* KCPCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C07264C81FDDB56B000A6D8F /* KCPCacheManager.m */; };
+		C07264D81FDDB56B000A6D8F /* KCPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C07264C91FDDB56B000A6D8F /* KCPManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C07264D91FDDB56B000A6D8F /* KCPParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C07264CA1FDDB56B000A6D8F /* KCPParser.m */; };
+		C07264DA1FDDB56B000A6D8F /* TACloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C07264CB1FDDB56B000A6D8F /* TACloseButton.m */; };
+		C07264DB1FDDB56B000A6D8F /* KCPDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C07264CC1FDDB56B000A6D8F /* KCPDownloader.m */; };
+		C07264DC1FDDB56B000A6D8F /* KCPCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C07264CD1FDDB56B000A6D8F /* KCPCacheManager.h */; };
+		C07264DD1FDDB56B000A6D8F /* KCPApp.m in Sources */ = {isa = PBXBuildFile; fileRef = C07264CE1FDDB56B000A6D8F /* KCPApp.m */; };
+		C07264DE1FDDB56B000A6D8F /* KCPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07264CF1FDDB56B000A6D8F /* KCPViewController.m */; };
+		C07264DF1FDDB56B000A6D8F /* KCPParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C07264D01FDDB56B000A6D8F /* KCPParser.h */; };
+		C07264E01FDDB56B000A6D8F /* KCPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C07264D11FDDB56B000A6D8F /* KCPManager.m */; };
+		C07265261FDDBF13000A6D8F /* UIView+Facade.h in Headers */ = {isa = PBXBuildFile; fileRef = C07265141FDDBF13000A6D8F /* UIView+Facade.h */; };
+		C07265271FDDBF13000A6D8F /* UIView+Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = C07265151FDDBF13000A6D8F /* UIView+Facade.m */; };
+		C07265281FDDBF13000A6D8F /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C07265171FDDBF13000A6D8F /* ChameleonMacros.h */; };
+		C07265291FDDBF13000A6D8F /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = C07265181FDDBF13000A6D8F /* UIColor+ChameleonPrivate.m */; };
+		C072652A1FDDBF13000A6D8F /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = C07265191FDDBF13000A6D8F /* UIColor+Chameleon.m */; };
+		C072652B1FDDBF13000A6D8F /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = C072651A1FDDBF13000A6D8F /* UIColor+ChameleonPrivate.h */; };
+		C072652C1FDDBF13000A6D8F /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = C072651B1FDDBF13000A6D8F /* UIColor+Chameleon.h */; };
+		C072652D1FDDBF13000A6D8F /* UIImage+AIOUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C072651D1FDDBF13000A6D8F /* UIImage+AIOUtils.m */; };
+		C072652E1FDDBF13000A6D8F /* UIColor+AIOColors.h in Headers */ = {isa = PBXBuildFile; fileRef = C072651E1FDDBF13000A6D8F /* UIColor+AIOColors.h */; };
+		C072652F1FDDBF13000A6D8F /* UIView+AIOUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C072651F1FDDBF13000A6D8F /* UIView+AIOUtils.m */; };
+		C07265301FDDBF13000A6D8F /* UIImage+AIOUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C07265201FDDBF13000A6D8F /* UIImage+AIOUtils.h */; };
+		C07265311FDDBF13000A6D8F /* UIView+AIOUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C07265211FDDBF13000A6D8F /* UIView+AIOUtils.h */; };
+		C07265321FDDBF13000A6D8F /* UIColor+AIOColors.m in Sources */ = {isa = PBXBuildFile; fileRef = C07265221FDDBF13000A6D8F /* UIColor+AIOColors.m */; };
+		C07265331FDDBF13000A6D8F /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C07265241FDDBF13000A6D8F /* EGOCache.m */; };
+		C07265341FDDBF13000A6D8F /* EGOCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C07265251FDDBF13000A6D8F /* EGOCache.h */; };
+		C07265361FDDBF5D000A6D8F /* KCPApp.h in Headers */ = {isa = PBXBuildFile; fileRef = C07265351FDDBF5D000A6D8F /* KCPApp.h */; };
+		C072653C1FDDC0A2000A6D8F /* AIOUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C072653A1FDDC0A2000A6D8F /* AIOUtils.h */; };
+		C072653D1FDDC0A2000A6D8F /* AIOUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C072653B1FDDC0A2000A6D8F /* AIOUtils.m */; };
+		C07265411FDDC14B000A6D8F /* StarRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = C072653F1FDDC14B000A6D8F /* StarRatingView.h */; };
+		C07265421FDDC14B000A6D8F /* StarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C07265401FDDC14B000A6D8F /* StarRatingView.m */; };
+		C07265461FDDC463000A6D8F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C07265441FDDC463000A6D8F /* Reachability.m */; };
+		C07265471FDDC463000A6D8F /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = C07265451FDDC463000A6D8F /* Reachability.h */; };
+		C07265561FDDDB0C000A6D8F /* star_half.png in Resources */ = {isa = PBXBuildFile; fileRef = C07265521FDDDB0C000A6D8F /* star_half.png */; };
+		C07265571FDDDB0C000A6D8F /* star_empty_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = C07265531FDDDB0C000A6D8F /* star_empty_framed.png */; };
+		C07265581FDDDB0C000A6D8F /* star_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = C07265541FDDDB0C000A6D8F /* star_empty.png */; };
+		C07265591FDDDB0C000A6D8F /* star_full.png in Resources */ = {isa = PBXBuildFile; fileRef = C07265551FDDDB0C000A6D8F /* star_full.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C072648C1FDDB11D000A6D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07264781FDDB11D000A6D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07264801FDDB11D000A6D8F;
+			remoteInfo = KCPApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C07264811FDDB11D000A6D8F /* KCPApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCPApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07264851FDDB11D000A6D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C072648A1FDDB11D000A6D8F /* KCPAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCPAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C072648F1FDDB11D000A6D8F /* KCPAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCPAppTests.m; sourceTree = "<group>"; };
+		C07264911FDDB11D000A6D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07264C31FDDB56B000A6D8F /* KCPApp+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KCPApp+Private.h"; sourceTree = "<group>"; };
+		C07264C41FDDB56B000A6D8F /* KCPDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPDownloader.h; sourceTree = "<group>"; };
+		C07264C51FDDB56B000A6D8F /* TACloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACloseButton.h; sourceTree = "<group>"; };
+		C07264C61FDDB56B000A6D8F /* KCPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPViewController.h; sourceTree = "<group>"; };
+		C07264C81FDDB56B000A6D8F /* KCPCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPCacheManager.m; sourceTree = "<group>"; };
+		C07264C91FDDB56B000A6D8F /* KCPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPManager.h; sourceTree = "<group>"; };
+		C07264CA1FDDB56B000A6D8F /* KCPParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPParser.m; sourceTree = "<group>"; };
+		C07264CB1FDDB56B000A6D8F /* TACloseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACloseButton.m; sourceTree = "<group>"; };
+		C07264CC1FDDB56B000A6D8F /* KCPDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPDownloader.m; sourceTree = "<group>"; };
+		C07264CD1FDDB56B000A6D8F /* KCPCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPCacheManager.h; sourceTree = "<group>"; };
+		C07264CE1FDDB56B000A6D8F /* KCPApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPApp.m; sourceTree = "<group>"; };
+		C07264CF1FDDB56B000A6D8F /* KCPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPViewController.m; sourceTree = "<group>"; };
+		C07264D01FDDB56B000A6D8F /* KCPParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPParser.h; sourceTree = "<group>"; };
+		C07264D11FDDB56B000A6D8F /* KCPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPManager.m; sourceTree = "<group>"; };
+		C07265141FDDBF13000A6D8F /* UIView+Facade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Facade.h"; sourceTree = "<group>"; };
+		C07265151FDDBF13000A6D8F /* UIView+Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Facade.m"; sourceTree = "<group>"; };
+		C07265171FDDBF13000A6D8F /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		C07265181FDDBF13000A6D8F /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		C07265191FDDBF13000A6D8F /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		C072651A1FDDBF13000A6D8F /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		C072651B1FDDBF13000A6D8F /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		C072651D1FDDBF13000A6D8F /* UIImage+AIOUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AIOUtils.m"; sourceTree = "<group>"; };
+		C072651E1FDDBF13000A6D8F /* UIColor+AIOColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AIOColors.h"; sourceTree = "<group>"; };
+		C072651F1FDDBF13000A6D8F /* UIView+AIOUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AIOUtils.m"; sourceTree = "<group>"; };
+		C07265201FDDBF13000A6D8F /* UIImage+AIOUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AIOUtils.h"; sourceTree = "<group>"; };
+		C07265211FDDBF13000A6D8F /* UIView+AIOUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AIOUtils.h"; sourceTree = "<group>"; };
+		C07265221FDDBF13000A6D8F /* UIColor+AIOColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AIOColors.m"; sourceTree = "<group>"; };
+		C07265241FDDBF13000A6D8F /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		C07265251FDDBF13000A6D8F /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		C07265351FDDBF5D000A6D8F /* KCPApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPApp.h; sourceTree = "<group>"; };
+		C072653A1FDDC0A2000A6D8F /* AIOUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIOUtils.h; sourceTree = "<group>"; };
+		C072653B1FDDC0A2000A6D8F /* AIOUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIOUtils.m; sourceTree = "<group>"; };
+		C072653F1FDDC14B000A6D8F /* StarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingView.h; sourceTree = "<group>"; };
+		C07265401FDDC14B000A6D8F /* StarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRatingView.m; sourceTree = "<group>"; };
+		C07265441FDDC463000A6D8F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C07265451FDDC463000A6D8F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C07265521FDDDB0C000A6D8F /* star_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_half.png; sourceTree = "<group>"; };
+		C07265531FDDDB0C000A6D8F /* star_empty_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_empty_framed.png; sourceTree = "<group>"; };
+		C07265541FDDDB0C000A6D8F /* star_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_empty.png; sourceTree = "<group>"; };
+		C07265551FDDDB0C000A6D8F /* star_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_full.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C072647D1FDDB11D000A6D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07264871FDDB11D000A6D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C072648B1FDDB11D000A6D8F /* KCPApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C07264771FDDB11D000A6D8F = {
+			isa = PBXGroup;
+			children = (
+				C07264831FDDB11D000A6D8F /* KCPApp */,
+				C072648E1FDDB11D000A6D8F /* KCPAppTests */,
+				C07264821FDDB11D000A6D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C07264821FDDB11D000A6D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07264811FDDB11D000A6D8F /* KCPApp.framework */,
+				C072648A1FDDB11D000A6D8F /* KCPAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C07264831FDDB11D000A6D8F /* KCPApp */ = {
+			isa = PBXGroup;
+			children = (
+				C07264851FDDB11D000A6D8F /* Info.plist */,
+				C07265351FDDBF5D000A6D8F /* KCPApp.h */,
+				C07264C31FDDB56B000A6D8F /* KCPApp+Private.h */,
+				C07264CE1FDDB56B000A6D8F /* KCPApp.m */,
+				C07264CD1FDDB56B000A6D8F /* KCPCacheManager.h */,
+				C07264C81FDDB56B000A6D8F /* KCPCacheManager.m */,
+				C07264C41FDDB56B000A6D8F /* KCPDownloader.h */,
+				C07264CC1FDDB56B000A6D8F /* KCPDownloader.m */,
+				C07264C91FDDB56B000A6D8F /* KCPManager.h */,
+				C07264D11FDDB56B000A6D8F /* KCPManager.m */,
+				C07264D01FDDB56B000A6D8F /* KCPParser.h */,
+				C07264CA1FDDB56B000A6D8F /* KCPParser.m */,
+				C07264C61FDDB56B000A6D8F /* KCPViewController.h */,
+				C07264CF1FDDB56B000A6D8F /* KCPViewController.m */,
+				C07264C51FDDB56B000A6D8F /* TACloseButton.h */,
+				C07264CB1FDDB56B000A6D8F /* TACloseButton.m */,
+				C07264E31FDDBC84000A6D8F /* Dependencies */,
+			);
+			path = KCPApp;
+			sourceTree = "<group>";
+		};
+		C072648E1FDDB11D000A6D8F /* KCPAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C072648F1FDDB11D000A6D8F /* KCPAppTests.m */,
+				C07264911FDDB11D000A6D8F /* Info.plist */,
+			);
+			path = KCPAppTests;
+			sourceTree = "<group>";
+		};
+		C07264E31FDDBC84000A6D8F /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				C07265431FDDC463000A6D8F /* Reachability */,
+				C072653E1FDDC14B000A6D8F /* StarRatingView */,
+				C072651C1FDDBF13000A6D8F /* AIO */,
+				C07265161FDDBF13000A6D8F /* Chameleon */,
+				C07265231FDDBF13000A6D8F /* EGOCache-2.2.0 */,
+				C07265131FDDBF13000A6D8F /* Facade-1.1.1 */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		C07265131FDDBF13000A6D8F /* Facade-1.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				C07265141FDDBF13000A6D8F /* UIView+Facade.h */,
+				C07265151FDDBF13000A6D8F /* UIView+Facade.m */,
+			);
+			path = "Facade-1.1.1";
+			sourceTree = "<group>";
+		};
+		C07265161FDDBF13000A6D8F /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				C07265171FDDBF13000A6D8F /* ChameleonMacros.h */,
+				C072651B1FDDBF13000A6D8F /* UIColor+Chameleon.h */,
+				C07265191FDDBF13000A6D8F /* UIColor+Chameleon.m */,
+				C072651A1FDDBF13000A6D8F /* UIColor+ChameleonPrivate.h */,
+				C07265181FDDBF13000A6D8F /* UIColor+ChameleonPrivate.m */,
+			);
+			path = Chameleon;
+			sourceTree = "<group>";
+		};
+		C072651C1FDDBF13000A6D8F /* AIO */ = {
+			isa = PBXGroup;
+			children = (
+				C072653A1FDDC0A2000A6D8F /* AIOUtils.h */,
+				C072653B1FDDC0A2000A6D8F /* AIOUtils.m */,
+				C072651E1FDDBF13000A6D8F /* UIColor+AIOColors.h */,
+				C07265221FDDBF13000A6D8F /* UIColor+AIOColors.m */,
+				C07265201FDDBF13000A6D8F /* UIImage+AIOUtils.h */,
+				C072651D1FDDBF13000A6D8F /* UIImage+AIOUtils.m */,
+				C07265211FDDBF13000A6D8F /* UIView+AIOUtils.h */,
+				C072651F1FDDBF13000A6D8F /* UIView+AIOUtils.m */,
+			);
+			path = AIO;
+			sourceTree = "<group>";
+		};
+		C07265231FDDBF13000A6D8F /* EGOCache-2.2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				C07265241FDDBF13000A6D8F /* EGOCache.m */,
+				C07265251FDDBF13000A6D8F /* EGOCache.h */,
+			);
+			path = "EGOCache-2.2.0";
+			sourceTree = "<group>";
+		};
+		C072653E1FDDC14B000A6D8F /* StarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				C07265511FDDDB0C000A6D8F /* Resource */,
+				C072653F1FDDC14B000A6D8F /* StarRatingView.h */,
+				C07265401FDDC14B000A6D8F /* StarRatingView.m */,
+			);
+			path = StarRatingView;
+			sourceTree = "<group>";
+		};
+		C07265431FDDC463000A6D8F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				C07265451FDDC463000A6D8F /* Reachability.h */,
+				C07265441FDDC463000A6D8F /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		C07265511FDDDB0C000A6D8F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C07265521FDDDB0C000A6D8F /* star_half.png */,
+				C07265531FDDDB0C000A6D8F /* star_empty_framed.png */,
+				C07265541FDDDB0C000A6D8F /* star_empty.png */,
+				C07265551FDDDB0C000A6D8F /* star_full.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C072647E1FDDB11D000A6D8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C072653C1FDDC0A2000A6D8F /* AIOUtils.h in Headers */,
+				C07264D81FDDB56B000A6D8F /* KCPManager.h in Headers */,
+				C07264DF1FDDB56B000A6D8F /* KCPParser.h in Headers */,
+				C07265281FDDBF13000A6D8F /* ChameleonMacros.h in Headers */,
+				C072652E1FDDBF13000A6D8F /* UIColor+AIOColors.h in Headers */,
+				C07265301FDDBF13000A6D8F /* UIImage+AIOUtils.h in Headers */,
+				C07264D41FDDB56B000A6D8F /* TACloseButton.h in Headers */,
+				C07264D31FDDB56B000A6D8F /* KCPDownloader.h in Headers */,
+				C07264DC1FDDB56B000A6D8F /* KCPCacheManager.h in Headers */,
+				C072652B1FDDBF13000A6D8F /* UIColor+ChameleonPrivate.h in Headers */,
+				C07264D51FDDB56B000A6D8F /* KCPViewController.h in Headers */,
+				C07265311FDDBF13000A6D8F /* UIView+AIOUtils.h in Headers */,
+				C072652C1FDDBF13000A6D8F /* UIColor+Chameleon.h in Headers */,
+				C07265471FDDC463000A6D8F /* Reachability.h in Headers */,
+				C07264D21FDDB56B000A6D8F /* KCPApp+Private.h in Headers */,
+				C07265361FDDBF5D000A6D8F /* KCPApp.h in Headers */,
+				C07265261FDDBF13000A6D8F /* UIView+Facade.h in Headers */,
+				C07265411FDDC14B000A6D8F /* StarRatingView.h in Headers */,
+				C07265341FDDBF13000A6D8F /* EGOCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C07264801FDDB11D000A6D8F /* KCPApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07264951FDDB11D000A6D8F /* Build configuration list for PBXNativeTarget "KCPApp" */;
+			buildPhases = (
+				C072647C1FDDB11D000A6D8F /* Sources */,
+				C072647D1FDDB11D000A6D8F /* Frameworks */,
+				C072647E1FDDB11D000A6D8F /* Headers */,
+				C072647F1FDDB11D000A6D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCPApp;
+			productName = KCPApp;
+			productReference = C07264811FDDB11D000A6D8F /* KCPApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C07264891FDDB11D000A6D8F /* KCPAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07264981FDDB11D000A6D8F /* Build configuration list for PBXNativeTarget "KCPAppTests" */;
+			buildPhases = (
+				C07264861FDDB11D000A6D8F /* Sources */,
+				C07264871FDDB11D000A6D8F /* Frameworks */,
+				C07264881FDDB11D000A6D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C072648D1FDDB11D000A6D8F /* PBXTargetDependency */,
+			);
+			name = KCPAppTests;
+			productName = KCPAppTests;
+			productReference = C072648A1FDDB11D000A6D8F /* KCPAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07264781FDDB11D000A6D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kovács Kristóf";
+				TargetAttributes = {
+					C07264801FDDB11D000A6D8F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					C07264891FDDB11D000A6D8F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C072647B1FDDB11D000A6D8F /* Build configuration list for PBXProject "KCPApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C07264771FDDB11D000A6D8F;
+			productRefGroup = C07264821FDDB11D000A6D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07264801FDDB11D000A6D8F /* KCPApp */,
+				C07264891FDDB11D000A6D8F /* KCPAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C072647F1FDDB11D000A6D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07265591FDDDB0C000A6D8F /* star_full.png in Resources */,
+				C07265581FDDDB0C000A6D8F /* star_empty.png in Resources */,
+				C07265571FDDDB0C000A6D8F /* star_empty_framed.png in Resources */,
+				C07265561FDDDB0C000A6D8F /* star_half.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07264881FDDB11D000A6D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C072647C1FDDB11D000A6D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07264D71FDDB56B000A6D8F /* KCPCacheManager.m in Sources */,
+				C07264DA1FDDB56B000A6D8F /* TACloseButton.m in Sources */,
+				C072653D1FDDC0A2000A6D8F /* AIOUtils.m in Sources */,
+				C072652F1FDDBF13000A6D8F /* UIView+AIOUtils.m in Sources */,
+				C07265271FDDBF13000A6D8F /* UIView+Facade.m in Sources */,
+				C07265421FDDC14B000A6D8F /* StarRatingView.m in Sources */,
+				C07264D91FDDB56B000A6D8F /* KCPParser.m in Sources */,
+				C072652A1FDDBF13000A6D8F /* UIColor+Chameleon.m in Sources */,
+				C07264E01FDDB56B000A6D8F /* KCPManager.m in Sources */,
+				C07264DE1FDDB56B000A6D8F /* KCPViewController.m in Sources */,
+				C07265291FDDBF13000A6D8F /* UIColor+ChameleonPrivate.m in Sources */,
+				C07264DB1FDDB56B000A6D8F /* KCPDownloader.m in Sources */,
+				C07265331FDDBF13000A6D8F /* EGOCache.m in Sources */,
+				C072652D1FDDBF13000A6D8F /* UIImage+AIOUtils.m in Sources */,
+				C07265321FDDBF13000A6D8F /* UIColor+AIOColors.m in Sources */,
+				C07264DD1FDDB56B000A6D8F /* KCPApp.m in Sources */,
+				C07265461FDDC463000A6D8F /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07264861FDDB11D000A6D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07264901FDDB11D000A6D8F /* KCPAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C072648D1FDDB11D000A6D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07264801FDDB11D000A6D8F /* KCPApp */;
+			targetProxy = C072648C1FDDB11D000A6D8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C07264931FDDB11D000A6D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C07264941FDDB11D000A6D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C07264961FDDB11D000A6D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KCPApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KovacsKristof.KCPApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C07264971FDDB11D000A6D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KCPApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KovacsKristof.KCPApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C07264991FDDB11D000A6D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KCPAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KovacsKristof.KCPAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C072649A1FDDB11D000A6D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KCPAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KovacsKristof.KCPAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C072647B1FDDB11D000A6D8F /* Build configuration list for PBXProject "KCPApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07264931FDDB11D000A6D8F /* Debug */,
+				C07264941FDDB11D000A6D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07264951FDDB11D000A6D8F /* Build configuration list for PBXNativeTarget "KCPApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07264961FDDB11D000A6D8F /* Debug */,
+				C07264971FDDB11D000A6D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07264981FDDB11D000A6D8F /* Build configuration list for PBXNativeTarget "KCPAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07264991FDDB11D000A6D8F /* Debug */,
+				C072649A1FDDB11D000A6D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C07264781FDDB11D000A6D8F /* Project object */;
+}
