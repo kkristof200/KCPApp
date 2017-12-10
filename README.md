@@ -2,7 +2,7 @@
 Cache | Show any ad of an app only by using its App Id
 
 # Idea
-Needed a framework for cross promoting my apps, and found [JanC's Tapromotee](ttps://github.com/JanC/TAPromotee), but it didn't fit my needs, so I rewrote it, rebuilt the UI, added more functionalities to it, and covered more "edge cases".
+Needed a framework for cross promoting my apps, and found [JanC's Tapromotee](https://github.com/JanC/TAPromotee), but it didn't fit my needs, so I rewrote it, rebuilt the UI, added more functionalities to it, and covered more "edge cases".
 
 # Preview
 ![Alt Text](https://media.giphy.com/media/3o6fJ0xFdOvw1PcvKM/giphy.gif)
