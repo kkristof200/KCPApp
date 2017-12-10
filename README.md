@@ -1,3 +1,5 @@
+![Platform](https://img.shields.io/badge/platform-iOS%208.0%2B-blue.svg) ![Language](https://img.shields.io/badge/language-ObjC-blue.svg)
+
 # KCPApp
 Cache | Show any ad of an app only by using its App Id
 
