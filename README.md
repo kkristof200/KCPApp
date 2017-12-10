@@ -1,6 +1,9 @@
 # KCPApp
 Cache | Show any ad of an app only by using its App Id
 
+![Alt Text](https://media.giphy.com/media/3o6fJ0xFdOvw1PcvKM/giphy.gif)
+![Alt Text](https://media.giphy.com/media/3o6fIXdAPdTgwRhfmE/giphy.gif)
+
 # Features
 - Download, parse and cache all relevant data about an app only by its App Id.
 - Can do this to an array of ids, that you're planning to show in the future.
